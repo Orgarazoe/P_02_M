@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('font/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-Bold.woff2') format('woff2'),
+        url('font/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+    
+/* taille de la page*/
+
+#Page{
+    width: auto;
+    margin: auto;
+}
+/*police d'écriture*/
+
+body {
+	font-family: 'ralewaythin';
+    font-family: 'Raleway';
+    
+}
+   /*header*/
+
+.Logo
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: baseline;
+	width: 95px;
+	height: 45px;
+}
+
+
+
+ul.Navigation{
+    list-style-type: none;
+}
+nav{
+  display: flex;
+justify-content: flex-end;
+    top: auto;
+    width: auto;
+    }
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 0.9em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #2E40FF;
+    border-top: 3px solid #2E40FF;
+    border-top-width: thick;
+}
+    
+
+                       /*Filtre*/
+div.Filtre {
+  display: flex;
+  align-items: stretch ;
+  justify-content: space-around;
+  text-align: justify
+}
+.Economie{
+      border: 2px solid #ECE9E8;
+  border-radius: 20px;
+    text-align: left
+}
+
+.Familial{
+      border: 2px solid #ECE9E8;
+  border-radius: 20px;
+    text-align: left
+}
+.Romantique{
+      border: 2px solid #ECE9E8;
+  border-radius: 20px;
+    text-align: left
+}
+.Animaux{
+      border: 2px solid #ECE9E8;
+  border-radius: 20px;
+    text-align: left
+}
+ 
+/*note avec les étoile*/
+div.note{
+    display: flex;
+    
+}
+.info{
+    font-family: 'ralewaythin';
+}
